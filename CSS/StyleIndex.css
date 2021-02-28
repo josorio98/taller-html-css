@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #34495E;
+  padding: 25px;
+  text-align: center; /* Centra el texto del header*/
+  font-size: 25px; /* Cambia el grosor del marco*/
+  color: white;
+}
+nav {
+  float: left;
+  width: 25%;
+  height: 460px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+article h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+p span {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    text-decoration: underline;
+}
